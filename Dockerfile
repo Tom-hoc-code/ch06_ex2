@@ -5,7 +5,7 @@ FROM tomcat:9.0-jdk17-temurin
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy WAR đã export từ Eclipse vào Tomcat
-COPY chapter4_ex1.war /usr/local/tomcat/webapps/ROOT.war
+COPY ch06_ex2_survey.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port
 EXPOSE 8080
